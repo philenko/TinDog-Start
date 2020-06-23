@@ -10,7 +10,18 @@ h1 {
   line-height: 1.5;
   font-weight: 900;
 }
-
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
 /* Navigation Bar */
 
 .navbar {
@@ -42,7 +53,7 @@ h1 {
 }
 
 .container-fluid {
-  padding: 3% 15%
+  padding: 3% 15% 7%;
 }
 .title_text{
   color: white;
@@ -53,6 +64,8 @@ h1 {
 .iphone6{
   transform: rotate(25deg);
   width: 60%;
+  position: absolute;
+  right: 22%;
 }
 /* DownloadButtons */
 .download-button {
@@ -63,6 +76,8 @@ h1 {
 
 .features-row{
 padding: 100px 100px;
+background-color: white;
+position: relative;
 }
 .features-cell{
   margin: 25px 0;
@@ -87,4 +102,42 @@ padding: 100px 100px;
 .features-text{
   color: #8f8f8f;
   text-align: center;
+}
+/* Testimonials */
+.testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+.testemonial-img {
+  width: 11%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+/* Press */
+
+.press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+.pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+
 }
